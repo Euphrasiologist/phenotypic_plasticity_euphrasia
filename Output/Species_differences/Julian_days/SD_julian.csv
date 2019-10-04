@@ -1,0 +1,7 @@
+"","pairwise.differences.of.Expert_ID_living.contrast","pairwise.differences.of.Expert_ID_living.estimate","pairwise.differences.of.Expert_ID_living.SE","pairwise.differences.of.Expert_ID_living.df","pairwise.differences.of.Expert_ID_living.z.ratio","pairwise.differences.of.Expert_ID_living.p.value"
+"1","E. arctica - E. confusa",-0.0579507212969843,0.0502096314378092,Inf,-1.15417539698062,0.655812344787833
+"2","E. arctica - E. nemorosa",-0.0674525591394236,0.0476124876992622,Inf,-1.41669890398247,0.488812254774775
+"3","E. arctica - E. pseudokerneri",-0.0518119665983513,0.061319418308025,Inf,-0.844952023812178,0.832940326573671
+"4","E. confusa - E. nemorosa",-0.00950183784243929,0.0468393244087824,Inf,-0.202860266717632,0.997047396072901
+"5","E. confusa - E. pseudokerneri",0.006138754698633,0.0607210374303549,Inf,0.101097658380326,0.999630287096721
+"6","E. nemorosa - E. pseudokerneri",0.0156405925410723,0.058591691274456,Inf,0.266942158535899,0.993347500151773

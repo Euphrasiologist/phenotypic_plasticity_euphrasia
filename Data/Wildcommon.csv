@@ -1,0 +1,196 @@
+Experiment,E4E,Species,Nodes to flower inc coty,Glandular hairs,Standard corolla l,No. teeth lower floral leaf,Cauline leaf length,Cauline internode leaf ratio,No of branches,Branches branched
+Common,E4E0009,E. confusa,10,0,6.5,6,14,2.333333333,6,0
+Common,E4E0009,E. confusa,11,0,8,6,12,2,6,0
+Common,E4E0009,E. confusa,13,0,6,6,12,2,8,1
+Common,E4E0009,E. confusa,12,0,7.5,6,12,2,6,0
+Common,E4E0009,E. confusa,9,0,7,6,15,2.5,5,0
+Common,E4E0009,E. confusa,11,0,7,6,17,2.833333333,6,1
+Common,E4E0009,E. confusa,15,0,6.5,7,10,1.428571429,11,0
+Common,E4E0009,E. confusa,14,0,6.5,6,12,2,11,1
+Common,E4E0009,E. confusa,11,0,7.5,6,13,2.166666667,6,1
+Common,E4E0009,E. confusa,11,0,7,6,11,1.833333333,6,0
+Wild,E4E0009,E. confusa,NA,0,5,4,8,0.75,4,0
+Wild,E4E0009,E. confusa,NA,0,6,NA,5,NA,NA,NA
+Common,E4E0016,E. anglica x rostkoviana,11,1,8,7,13,1.857142857,9,0
+Common,E4E0016,E. anglica x rostkoviana,9,1,8.5,5,16,3.2,6,0
+Common,E4E0016,E. anglica x rostkoviana,10,1,7,6,16,2.666666667,9,0
+Common,E4E0016,E. anglica x rostkoviana,9,1,8,5,14,2.8,5,0
+Common,E4E0016,E. anglica x rostkoviana,9,1,8,5,18,3.6,5,0
+Common,E4E0016,E. anglica x rostkoviana,12,1,8.5,7,13,1.857142857,8,0
+Common,E4E0016,E. anglica x rostkoviana,13,1,8,7,14,2,9,0
+Common,E4E0016,E. anglica x rostkoviana,11,1,8,5,18,3.6,10,0
+Common,E4E0016,E. anglica x rostkoviana,11,1,7,6,11,1.833333333,6,0
+Wild,E4E0016,E. anglica x rostkoviana,11,1,6,4,6,2.4,1,0
+Wild,E4E0016,E. anglica x rostkoviana,13,1,7,NA,12,NA,NA,NA
+Common,E4E0021,E. arctica x nemorosa,11,0,8,6,14,2.333333333,7,0
+Common,E4E0021,E. arctica x nemorosa,11,0,9,6,14,2.333333333,4,0
+Common,E4E0021,E. arctica x nemorosa,12,0,6.5,7,19,2.714285714,7,0
+Common,E4E0021,E. arctica x nemorosa,12,0,6,7,17,2.428571429,7,0
+Common,E4E0021,E. arctica x nemorosa,13,0,8.5,7,13,1.857142857,9,1
+Common,E4E0021,E. arctica x nemorosa,14,0,8,7,15,2.142857143,10,0
+Common,E4E0021,E. arctica x nemorosa,11,0,6,6,10,1.666666667,5,0
+Common,E4E0021,E. arctica x nemorosa,14,0,8,5,9,1.8,7,0
+Common,E4E0021,E. arctica x nemorosa,10,0,8.5,4,13,3.25,5,0
+Common,E4E0021,E. arctica x nemorosa,13,0,8,5,13,2.6,7,0
+Wild,E4E0021,E. arctica x nemorosa,13,0,6,5,10,0.6,6,0
+Wild,E4E0021,E. arctica x nemorosa,14,0,7,4,10,0.75,2,NA
+Common,E4E0027,E. anglica x nemorosa,11,1,9.5,7,14,2,11,0
+Common,E4E0027,E. anglica x nemorosa,13,1,7.5,6,10,1.666666667,12,1
+Common,E4E0027,E. anglica x nemorosa,13,1,9,6,14,2.333333333,11,1
+Common,E4E0027,E. anglica x nemorosa,14,1,9,7,11,1.571428571,13,1
+Common,E4E0027,E. anglica x nemorosa,12,1,8,5,15,3,10,0
+Common,E4E0027,E. anglica x nemorosa,12,1,11.5,6,15,2.5,8,0
+Common,E4E0027,E. anglica x nemorosa,9,1,9,5,12,2.4,5,0
+Wild,E4E0027,E. anglica x nemorosa,8,0,7,5,9,2,6,0
+Wild,E4E0027,E. anglica x nemorosa,12,0,9,3,8,3,2,NA
+Wild,E4E0027,E. anglica x nemorosa,11,0,8,3,8,1.428571429,2,NA
+Common,E4E0029,E. pseudokerneri,12,0,8,5,11,2.2,10,1
+Common,E4E0029,E. pseudokerneri,13,0,8,6,13,2.166666667,12,1
+Common,E4E0029,E. pseudokerneri,11,0,8,5,11,2.2,7,1
+Common,E4E0029,E. pseudokerneri,12,0,9.5,5,12,2.4,11,1
+Common,E4E0029,E. pseudokerneri,11,0,8,6,12,2,9,1
+Common,E4E0029,E. pseudokerneri,14,0,8,6,12,2,8,1
+Common,E4E0029,E. pseudokerneri,17,0,9,5,11,2.2,10,1
+Common,E4E0029,E. pseudokerneri,16,0,7,5,8,1.6,10,1
+Common,E4E0029,E. pseudokerneri,15,0,8,4,7,1.75,11,1
+Common,E4E0029,E. pseudokerneri,14,0,6,5,10,2,4,0
+Common,E4E0029,E. pseudokerneri,10,0,4.5,2,2.5,1.25,0,0
+Wild,E4E0029,E. pseudokerneri,14,0,6,NA,6,1.166666667,2,0
+Wild,E4E0029,E. pseudokerneri,11,0,7,NA,7,1,7,NA
+Common,E4E0031,E. confusa x nemorosa,8,0,8,6,20,3.333333333,5,0
+Common,E4E0031,E. confusa x nemorosa,10,0,7.5,5,9,1.8,8,1
+Common,E4E0031,E. confusa x nemorosa,10,0,7,5,10,2,7,1
+Common,E4E0031,E. confusa x nemorosa,10,0,8.5,5,16,3.2,6,1
+Common,E4E0031,E. confusa x nemorosa,10,0,8.5,6,14,2.333333333,9,1
+Common,E4E0031,E. confusa x nemorosa,9,0,7.5,5,15,3,6,0
+Common,E4E0031,E. confusa x nemorosa,10,0,7.5,4,11,2.75,6,1
+Common,E4E0031,E. confusa x nemorosa,11,0,8,5,13,2.6,9,1
+Common,E4E0031,E. confusa x nemorosa,11,0,8,5,13,2.6,8,1
+Common,E4E0031,E. confusa x nemorosa,9,0,8,5,16,3.2,6,0
+Wild,E4E0031,E. confusa x nemorosa,9,0,8,4,7,1.428571429,0,0
+Wild,E4E0031,E. confusa x nemorosa,12,0,6,3,5,1.166666667,5,NA
+Wild,E4E0031,E. confusa x nemorosa,15,0,5,5,6,1,4,NA
+Common,E4E0032,E. arctica,6,0,9.5,3,8,2.666666667,2,1
+Common,E4E0032,E. arctica,6,0,9,3,7,2.333333333,4,0
+Common,E4E0032,E. arctica,7,0,10,4,9,2.25,4,0
+Common,E4E0032,E. arctica,8,0,9,4,13,3.25,6,1
+Common,E4E0032,E. arctica,8,0,10,5,11,2.2,4,1
+Common,E4E0032,E. arctica,7,0,9,3,9,3,3,0
+Common,E4E0032,E. arctica,8,0,10,5,9.5,1.9,4,0
+Common,E4E0032,E. arctica,8,0,10,3,10,3.333333333,4,1
+Common,E4E0032,E. arctica,7,0,9.5,3,8,2.666666667,4,0
+Common,E4E0032,E. arctica,6,0,7,3,10,3.333333333,4,0
+Wild,E4E0032,E. arctica,8,0,10,4,7,2.285714286,4,1
+Wild,E4E0032,E. arctica,5,0,8,3,6,NA,3,NA
+Wild,E4E0032,E. arctica,9,0,6,3,8,1.875,4,NA
+Common,E4E0033,E. arctica x confusa,7,0,9.5,4,14,3.5,5,0
+Common,E4E0033,E. arctica x confusa,7,0,9.5,4,16,4,6,0
+Common,E4E0033,E. arctica x confusa,8,0,10,4,18,4.5,5,1
+Common,E4E0033,E. arctica x confusa,8,0,10,4,16,4,8,1
+Common,E4E0033,E. arctica x confusa,7,0,9,3,14,4.666666667,5,1
+Common,E4E0033,E. arctica x confusa,8,0,8,4,16,4,4,1
+Common,E4E0033,E. arctica x confusa,7,0,10,3,12,4,5,1
+Common,E4E0033,E. arctica x confusa,8,0,10,4,15,3.75,7,1
+Common,E4E0033,E. arctica x confusa,9,0,9.5,4,16,4,6,0
+Common,E4E0033,E. arctica x confusa,9,0,9,4,14,3.5,6,0
+Wild,E4E0033,E. arctica x confusa,9,0,8,4,8,1.25,2,0
+Wild,E4E0033,E. arctica x confusa,6,0,10,4,7,3.857142857,3,NA
+Wild,E4E0033,E. arctica x confusa,10,0,8,4,7,2.428571429,4,NA
+Common,E4E0064,E. nemorosa,6,0,7.5,4,9,2.25,3,1
+Common,E4E0064,E. nemorosa,6,0,6.5,2,7,3.5,2,0
+Common,E4E0064,E. nemorosa,6,0,7.5,5,7,1.4,3,0
+Common,E4E0064,E. nemorosa,11,0,7.5,5,12,2.4,6,0
+Common,E4E0064,E. nemorosa,13,0,8.5,6,10,1.666666667,10,0
+Common,E4E0064,E. nemorosa,11,0,8,6,14,2.333333333,8,1
+Common,E4E0064,E. nemorosa,13,0,7.5,7,12,1.714285714,11,1
+Common,E4E0064,E. nemorosa,15,0,7,7,11,1.571428571,10,1
+Common,E4E0064,E. nemorosa,11,0,7.5,5,13,2.6,6,1
+Common,E4E0064,E. nemorosa,11,0,7.5,6,13,2.166666667,8,1
+Wild,E4E0064,E. nemorosa,7,0,6,4,6,1,2,1
+Common,E4E0069,E. nemorosa,12,0,7.5,5,10,2,9,0
+Common,E4E0069,E. nemorosa,12,0,8,5,8,1.6,9,0
+Common,E4E0069,E. nemorosa,11,0,7.5,5,10,2,6,0
+Common,E4E0069,E. nemorosa,13,0,8,5,13,2.6,7,0
+Common,E4E0069,E. nemorosa,14,0,6.5,5,7,1.4,10,0
+Common,E4E0069,E. nemorosa,13,0,6.5,5,10,2,7,0
+Common,E4E0069,E. nemorosa,12,0,8,5,11,2.2,5,0
+Common,E4E0069,E. nemorosa,9,0,9,4,9,2.25,6,0
+Wild,E4E0069,E. nemorosa,9,0,7,4,11,1,8,0
+Wild,E4E0069,E. nemorosa,12,0,7,5,6,1,6,NA
+Wild,E4E0069,E. nemorosa,13,0,6,4,9,0.777777778,12,NA
+Common,E4E0112,E. pseudokerneri,11,0,11,6,11,1.833333333,9,0
+Common,E4E0112,E. pseudokerneri,12,0,11,6,15,2.5,7,1
+Common,E4E0112,E. pseudokerneri,14,0,10,5,12,2.4,10,0
+Common,E4E0112,E. pseudokerneri,13,0,10,7,14,2,10,0
+Common,E4E0112,E. pseudokerneri,13,0,6.5,6,15,2.5,9,0
+Common,E4E0112,E. pseudokerneri,15,0,8.5,7,9,1.285714286,9,1
+Common,E4E0112,E. pseudokerneri,15,0,10.5,6,11,1.833333333,8,1
+Common,E4E0112,E. pseudokerneri,13,0,11,6,15,2.5,10,1
+Common,E4E0112,E. pseudokerneri,14,0,10.5,6,15,2.5,9,1
+Common,E4E0112,E. pseudokerneri,13,0,11,6,15,2.5,9,0
+Wild,E4E0112,E. pseudokerneri,12,0,8,4,7,1.428571429,4,1
+Wild,E4E0112,E. pseudokerneri,14,0,10,4,8,1.375,8,NA
+Wild,E4E0112,E. pseudokerneri,12,0,8,4,9,1.333333333,9,NA
+Common,E4E0138,E. arctica,8,0,8.5,5,10,2,3,0
+Common,E4E0138,E. arctica,9,0,9.5,4,14,3.5,5,1
+Common,E4E0138,E. arctica,8,0,8.5,4,12,3,4,0
+Common,E4E0138,E. arctica,9,0,8,4,12,3,7,0
+Common,E4E0138,E. arctica,9,0,10,4,16,4,5,1
+Common,E4E0138,E. arctica,9,0,9,5,15,3,5,1
+Common,E4E0138,E. arctica,8,0,8.5,4,13,3.25,4,0
+Common,E4E0138,E. arctica,8,0,9,5,14,2.8,5,0
+Common,E4E0138,E. arctica,8,0,8.5,2,8,4,4,0
+Common,E4E0138,E. arctica,10,0,8,5,16,3.2,7,1
+Wild,E4E0138,E. arctica,8,0,8,5,10,2.2,2,1
+Wild,E4E0138,E. arctica,7,0,7,NA,NA,NA,5,NA
+Wild,E4E0138,E. arctica,10,0,7,5,7,1.571428571,4,NA
+Common,E4E0139,E. arctica,8,0,9,5,12,2.4,4,1
+Common,E4E0139,E. arctica,7,0,6.5,3,12,4,4,0
+Common,E4E0139,E. arctica,9,0,7,3,11,3.666666667,3,1
+Common,E4E0139,E. arctica,8,0,8.5,4,11.5,2.875,4,0
+Common,E4E0139,E. arctica,8,0,8,4,13,3.25,5,1
+Common,E4E0139,E. arctica,9,0,8.5,4,11,2.75,5,1
+Common,E4E0139,E. arctica,7,0,7.5,4,13,3.25,5,1
+Common,E4E0139,E. arctica,9,0,7,3,10,3.333333333,3,1
+Common,E4E0139,E. arctica,9,0,7.5,3,9,3,4,0
+Wild,E4E0139,E. arctica,9,0,7,4,9,2,5,0
+Wild,E4E0139,E. arctica,8,0,7,4,6,3,2,NA
+Wild,E4E0139,E. arctica,5,0,7,4,9,2,2,NA
+Common,E4E0143,E. confusa x tetraquetra,6,0,7.5,4,8,2,4,0
+Common,E4E0143,E. confusa x tetraquetra,7,0,7.5,4,10,2.5,3,0
+Common,E4E0143,E. confusa x tetraquetra,6,0,6,3,7,2.333333333,3,1
+Common,E4E0143,E. confusa x tetraquetra,8,0,7.5,5,11,2.2,3,0
+Common,E4E0143,E. confusa x tetraquetra,9,0,8,5,13,2.6,4,1
+Common,E4E0143,E. confusa x tetraquetra,7,0,8,4,14,3.5,5,1
+Common,E4E0143,E. confusa x tetraquetra,7,0,6.5,4,9,2.25,3,0
+Common,E4E0143,E. confusa x tetraquetra,8,0,7,5,10,2,6,1
+Common,E4E0143,E. confusa x tetraquetra,9,0,7,4,10,2.5,5,1
+Common,E4E0143,E. confusa x tetraquetra,9,0,7,4,8,2,4,0
+Wild,E4E0143,E. confusa x tetraquetra,10,0,5,4,8,0.5,7,0
+Wild,E4E0143,E. confusa x tetraquetra,9,0,5,4,6,0.666666667,4,NA
+Wild,E4E0143,E. confusa x tetraquetra,7,0,5,5,9,0.333333333,4,NA
+Common,E4E0144,E. arctica,6,0,10,4,8,2,1,0
+Common,E4E0144,E. arctica,10,0,8,6,9,1.5,2,0
+Common,E4E0144,E. arctica,10,0,8.5,7,16,2.285714286,6,0
+Common,E4E0144,E. arctica,8,0,8,5,17,3.4,5,0
+Common,E4E0144,E. arctica,10,0,9,5,14,2.8,5,0
+Common,E4E0144,E. arctica,8,0,9,5,10,2,3,0
+Common,E4E0144,E. arctica,9,0,9,5,15,3,4,1
+Common,E4E0144,E. arctica,8,0,8.5,4,15,3.75,4,0
+Common,E4E0144,E. arctica,8,0,7,4,12,3,3,0
+Wild,E4E0144,E. arctica,8,0,7,NA,NA,NA,2,0
+Wild,E4E0144,E. arctica,6,0,6,NA,NA,NA,1,NA
+Wild,E4E0144,E. arctica,5,0,7,NA,NA,NA,1,NA
+Common,E4E0145,E. arctica x nemorosa,9,0,8,5,16,3.2,7,0
+Common,E4E0145,E. arctica x nemorosa,10,0,8.5,5,10,2,4,1
+Common,E4E0145,E. arctica x nemorosa,9,0,9,7,12.5,1.785714286,7,0
+Common,E4E0145,E. arctica x nemorosa,11,0,8,7,14,2,7,0
+Common,E4E0145,E. arctica x nemorosa,10,0,8,6,11,1.833333333,6,1
+Common,E4E0145,E. arctica x nemorosa,12,0,8,7,12,1.714285714,8,0
+Common,E4E0145,E. arctica x nemorosa,11,0,8.5,6,11,1.833333333,5,0
+Common,E4E0145,E. arctica x nemorosa,8,0,8,3,7,2.333333333,3,0
+Common,E4E0145,E. arctica x nemorosa,11,0,8.5,5,13,2.6,7,0
+Common,E4E0145,E. arctica x nemorosa,13,0,8,8,18,2.25,8,1
+Wild,E4E0145,E. arctica x nemorosa,9,1,6,5,8,2,3,0
+Wild,E4E0145,E. arctica x nemorosa,12,1,7,4,5,1.8,5,NA
+Wild,E4E0145,E. arctica x nemorosa,8,1,6,NA,6,1.5,1,NA

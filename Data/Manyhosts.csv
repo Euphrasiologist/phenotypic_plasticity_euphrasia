@@ -1,0 +1,195 @@
+Access_No_or_location,Species,Record_number,Unique_identified,Host,Host_code_number,Host_no_host,Height,No_branches,Branches_branched,Nodes_to_flower_inc_coty,No_teeth_lower_floral_leaf,Flower_colour,Corolla _ength,Corolla_width,Standard_corolla_l,Glandular_hairs,Cauline_leaf_teeth,Cauline _leaf_length,Cauline_internode_length,Cauline_ratio,Inferred_flower_date,Flower_date_cal,Julian_days_to_flower,Height_end_season,Peat_no_peat
+North Berwick,Euphrasia arctica,5,204,Arabidopsis thaliana,3,0,40,6,0,8,4,0,10,6,7.5,0,4,9,4,0.444444444,42544,42544,174,62,0
+North Berwick,Euphrasia arctica,9,150,Arabidopsis thaliana,3,0,16,3,0,6,3,0,8.5,5,7,0,3,6.5,3,0.461538462,42549,42549,179,45,0
+North Berwick,Euphrasia arctica,10,114,Arabidopsis thaliana,3,0,26,4,0,8,4,0,9.5,6.5,7,0,3,12,4,0.333333333,42550,42550,180,56,0
+North Berwick,Euphrasia arctica,13,235,Arabidopsis thaliana,3,0,19,3,0,7,4,0,9.5,6,7,0,4,6,2,0.333333333,42548,42548,178,30,0
+North Berwick,Euphrasia arctica,15,226,Arabidopsis thaliana,3,0,20,2,0,9,4,0,8,5.5,6,0,4,6,3,0.5,42553,42553,183,#N/A,#N/A
+North Berwick,Euphrasia arctica,17,159,Arabidopsis thaliana,3,0,27,4,0,10,4,0,8,5.5,6,0,4,6.5,5,0.769230769,42554,42554,184,41,0
+North Berwick,Euphrasia arctica,21,253,Arabidopsis thaliana,3,0,24,3,0,8,4,0,8,5.5,6,0,3,6.5,3,0.461538462,42552,42552,182,26,0
+North Berwick,Euphrasia arctica,26,245,Arabidopsis thaliana,3,0,28,3,0,8,4,0,8.5,4,6.5,0,4,7,5,0.714285714,42557,42557,187,45,0
+North Berwick,Euphrasia arctica,29,262,Arabidopsis thaliana,3,0,32,7,0,9,4,0,8.5,3,6.5,0,3,8.5,5,0.588235294,42558,42558,188,55,0
+North Berwick,Euphrasia arctica,36,217,Arabidopsis thaliana,3,0,27,5,0,8,4,0,10,3,7.5,0,3,8,4,0.5,42557,42557,187,48,0
+North Berwick,Euphrasia arctica,42,118,Arabidopsis thaliana,3,0,29,2,0,7,3,0,9,6,7,0,2,5,1.5,0.3,42562,42562,192,26,0
+North Berwick,Euphrasia arctica,48,25,Arabidopsis thaliana,3,0,20,4,0,8,4,0,9,6,7,0,4,6,4,0.666666667,42563,42563,193,33,1
+North Berwick,Euphrasia arctica,55,114,Arabidopsis thaliana,3,0,33,4,0,8,4,0,9.5,7,7,0,3,7,5,0.714285714,42559,42559,189,56,0
+North Berwick,Euphrasia arctica,56,136,Arabidopsis thaliana,3,0,14,1,0,8,3,0,8,5,6,0,3,6,2,0.333333333,42564,42564,194,36,1
+North Berwick,Euphrasia arctica,63,12,Arabidopsis thaliana,3,0,15,3,0,8,3,0,7,3.5,5.5,0,4,5,2,0.4,42563,42563,193,37,0
+North Berwick,Euphrasia arctica,66,98,Arabidopsis thaliana,3,0,8,0,0,8,3,0,6.5,4.5,5.5,0,3,5,2,0.4,42566,42566,196,#N/A,#N/A
+North Berwick,Euphrasia arctica,69,213,Arabidopsis thaliana,3,0,22,3,0,10,3,0,8.5,6,7,0,3,5,2.5,0.5,42568,42568,198,35,0
+North Berwick,Euphrasia arctica,72,3,Arabidopsis thaliana,3,0,27,4,0,10,3,0,9,6,7,0,3,6,3.5,0.583333333,42568,42568,198,41,0
+North Berwick,Euphrasia arctica,83,71,Arabidopsis thaliana,3,0,13,0,0,9,3,0,7.5,5.5,6,0,3,4.5,1.5,0.333333333,42572,42572,202,9,1
+North Berwick,Euphrasia arctica,95,106,Arabidopsis thaliana,3,0,10,0,0,8,2,0,0,,0,0,2,3,1,0.333333333,42575,42575,205,11,1
+North Berwick,Euphrasia arctica,96,89,Arabidopsis thaliana,3,0,12,0,0,10,3,0,8,,7,0,3,4,1.5,0.375,42576,42576,206,14,1
+North Berwick,Euphrasia arctica,109,163,Arabidopsis thaliana,3,0,12,0,0,10,3,0,,,6.5,0,3,4,1.5,0.375,42591,42591,221,12,1
+North Berwick,Euphrasia arctica,118,62,Arabidopsis thaliana,3,0,13,0,0,11,3,0,,,6.5,0,2,3,1,0.333333333,42596,42596,226,18,0
+North Berwick,Euphrasia arctica,129,44,Arabidopsis thaliana,3,0,12,0,0,10,2,0,,,5,0,3,3,1,0.333333333,42598,42598,228,13,1
+North Berwick,Euphrasia arctica,144,172,Arabidopsis thaliana,3,0,8,0,0,7,2,0,,,,0,2,2.5,1,0.4,42607,42607,237,7,1
+North Berwick,Euphrasia arctica,158,127,Arabidopsis thaliana,3,0,8,0,0,9,2,0,,,4,0,2,2,0.5,0.25,42612,42612,242,9,1
+North Berwick,Euphrasia arctica,159,53,Arabidopsis thaliana,3,0,17,0,0,13,2,0,,,6,0,3,3,2,0.666666667,42611,42611,241,21,1
+North Berwick,Euphrasia arctica,161,35,Arabidopsis thaliana,3,0,11,0,0,10,2,0,,,4,0,2,2,1,0.5,42611,42611,241,7,1
+North Berwick,Euphrasia arctica,187,62,Arabidopsis thaliana,3,0,13,0,0,11,3,0,,,6.5,0,2,3,1,0.333333333,42627,42627,257,18,0
+North Berwick,Euphrasia arctica,2,220,Equisetum,6,0,13,0,0,7,2,0,10.5,3.5,8,0,2,4,1.5,0.375,42548,42548,178,#N/A,#N/A
+North Berwick,Euphrasia arctica,23,256,Equisetum,6,0,21,2,0,8,3,0,9,7,7,0,3,4.5,2.5,0.555555556,42548,42548,178,105,0
+North Berwick,Euphrasia arctica,24,1,Equisetum,6,0,10,0,0,7,3,0,8,5,6,0,3,4,1.5,0.375,42549,42549,179,62,0
+North Berwick,Euphrasia arctica,47,243,Equisetum,6,0,18,1,0,9,3,0,8,5,6,0,3,5,1.5,0.3,42561,42561,191,82,0
+North Berwick,Euphrasia arctica,50,202,Equisetum,6,0,16,0,0,9,2,0,8.5,4.5,6.5,0,2,5,1.5,0.3,42563,42563,193,41,0
+North Berwick,Euphrasia arctica,53,238,Equisetum,6,0,13,0,0,8,3,0,7,5,5.5,0,2,3,1,0.333333333,42562,42562,192,17,0
+North Berwick,Euphrasia arctica,77,153,Equisetum,6,0,10,0,0,8,2,0,7.5,4,7,0,2,2,0.5,0.25,42569,42569,199,#N/A,#N/A
+North Berwick,Euphrasia arctica,86,299,Equisetum,6,0,14,0,0,9,2,0,0,,0,0,2,3,1,0.333333333,42570,42570,200,#N/A,#N/A
+North Berwick,Euphrasia arctica,89,238,Equisetum,6,0,12,0,0,7,2,0,5.5,,5,0,3,3,1.5,0.5,42575,42575,205,17,0
+North Berwick,Euphrasia arctica,100,18,Equisetum,6,0,14,0,0,9,3,0,,,6.5,0,3,4,1.5,0.375,42589,42589,219,51,0
+North Berwick,Euphrasia arctica,101,121,Equisetum,6,0,14,1,0,9,3,0,,,6,0,3,3,1,0.333333333,42590,42590,220,29,0
+North Berwick,Euphrasia arctica,102,144,Equisetum,6,0,17,0,0,9,3,0,,,6,0,2,4,1.5,0.375,42587,42587,217,43,0
+North Berwick,Euphrasia arctica,110,108,Equisetum,6,0,13,1,0,11,3,0,,,6,0,3,3.5,1,0.285714286,42593,42593,223,29,0
+North Berwick,Euphrasia arctica,113,153,Equisetum,6,0,15,0,0,8,2,0,,,6,0,2,3,1,0.333333333,42576,42576,206,#N/A,#N/A
+North Berwick,Euphrasia arctica,122,x1,Equisetum,6,0,12,0,0,12,2,0,,,5,0,2,4,1,0.25,42600,42600,230,28,0
+North Berwick,Euphrasia arctica,131,193,Equisetum,6,0,17,2,0,11,3,0,,,5.5,0,2,3,1.5,0.5,42600,42600,230,29,1
+North Berwick,Euphrasia arctica,133,166,Equisetum,6,0,15,1,0,11,2,0,,,7,0,2,3,2,0.666666667,42604,42604,234,27,1
+North Berwick,Euphrasia arctica,137,95,Equisetum,6,0,8,0,0,10,2,0,,,6,0,2,3,1,0.333333333,42603,42603,233,-,1
+North Berwick,Euphrasia arctica,138,207,Equisetum,6,0,15,0,0,10,2,0,,,7,0,2,2,1,0.5,42604,42604,234,23,0
+North Berwick,Euphrasia arctica,139,265,Equisetum,6,0,13,1,0,11,2,0,,,7.5,0,2,3,1.5,0.5,42602,42602,232,21,0
+North Berwick,Euphrasia arctica,147,68,Equisetum,6,0,17,0,0,11,2,0,,,6,0,2,4,1,0.25,42611,42611,241,18,1
+North Berwick,Euphrasia arctica,155,130,Equisetum,6,0,23,0,0,8,3,0,,,7,0,2,4,2.5,0.625,42614,42614,244,39,1
+North Berwick,Euphrasia arctica,162,50,Equisetum,6,0,14,0,0,11,2,0,,,6,0,2,3,1.5,0.5,42610,42610,240,16,1
+North Berwick,Euphrasia arctica,175,175,Equisetum,6,0,9,0,0,8,1,0,,,,0,2,1.5,0.5,0.333333333,42618,42618,248,10,1
+North Berwick,Euphrasia arctica,178,139,Equisetum,6,0,35,0,0,11,2,0,,,4,0,2,3,5,1.666666667,42618,42618,248,26,1
+North Berwick,Euphrasia arctica,16,216,Festuca,2,0,14,1,0,7,2,0,9,6,7,0,2,4.5,1,0.222222222,42554,42554,184,43,0
+North Berwick,Euphrasia arctica,27,149,Festuca,2,0,23,2,0,9,3,0,8,3,6,0,3,7,3,0.428571429,42557,42557,187,#N/A,#N/A
+North Berwick,Euphrasia arctica,37,252,Festuca,2,0,26,3,0,10,4,0,9,6,7,0,3,7,2,0.285714286,42563,42563,193,65,0
+North Berwick,Euphrasia arctica,38,261,Festuca,2,0,18,2,0,9,4,0,8,5.5,6,0,3,6,2,0.333333333,42563,42563,193,88,0
+North Berwick,Euphrasia arctica,41,17,Festuca,2,0,11,0,0,9,3,0,9.5,5.5,7,0,3,4,1.5,0.375,42562,42562,192,17,0
+North Berwick,Euphrasia arctica,43,117,Festuca,2,0,21,1,0,9,3,0,8,5.5,6,0,3,5,2,0.4,42561,42561,191,53,0
+North Berwick,Euphrasia arctica,49,209,Festuca,2,0,25,0,0,7,3,0,8,4.5,6,0,2,4,1.5,0.375,42559,42559,189,41,0
+North Berwick,Euphrasia arctica,51,113,Festuca,2,0,17,0,0,9,3,0,8,5,6,0,2,5,2,0.4,42559,42559,189,50,0
+North Berwick,Euphrasia arctica,60,158,Festuca,2,0,24,1,0,9,4,0,9,6,7,0,4,6,2.5,0.416666667,42561,42561,191,54,0
+North Berwick,Euphrasia arctica,74,234,Festuca,2,0,27,6,0,12,4,0,8.5,6,7,0,3,7,3,0.428571429,42568,42568,198,56,0
+North Berwick,Euphrasia arctica,78,4,Festuca,2,0,22,2,0,10,3,0,9.5,6,7.5,0,3,5,2.5,0.5,42566,42566,196,92,0
+North Berwick,Euphrasia arctica,82,203,Festuca,2,0,21,0,0,9,3,0,6,4.5,5.5,0,3,4,3,0.75,42571,42571,201,32,0
+North Berwick,Euphrasia arctica,85,244,Festuca,2,0,33,4,0,10,5,0,8.5,6,7,0,4,13,4,0.307692308,42571,42571,201,86,0
+North Berwick,Euphrasia arctica,90,54,Festuca,2,0,9,0,0,9,2,0,8,,7,0,2,3,1,0.333333333,42577,42577,207,32,1
+North Berwick,Euphrasia arctica,91,36,Festuca,2,0,24,2,0,8,3,0,8,,7,0,2,5,2,0.4,42575,42575,205,45,0
+North Berwick,Euphrasia arctica,94,162,Festuca,2,0,15,0,0,10,3,0,7.5,,6.5,0,3,4,1.5,0.375,42577,42577,207,19,1
+North Berwick,Euphrasia arctica,106,96,Festuca,2,0,14,0,0,10,3,0,,,7,0,2,4,1,0.25,42590,42590,220,-,1
+North Berwick,Euphrasia arctica,107,99,Festuca,2,0,13,0,0,11,3,0,,,6,0,3,4,1.5,0.375,42588,42588,218,23,1
+North Berwick,Euphrasia arctica,114,135,Festuca,2,0,12,0,1,10,3,0,,,7,0,3,4,1.5,0.375,42597,42597,227,43,1
+North Berwick,Euphrasia arctica,117,63,Festuca,2,0,10,0,0,8,1,0,,,5.5,0,3,2,0.5,0.25,42594,42594,224,5,0
+North Berwick,Euphrasia arctica,134,13,Festuca,2,0,11,0,0,10,3,0,,,6.5,0,3,4,1.5,0.375,42603,42603,233,24,0
+North Berwick,Euphrasia arctica,150,279,Festuca,2,0,21,1,0,9,3,0,,,6.5,0,3,5,1.5,0.3,42608,42608,238,33,1
+North Berwick,Euphrasia arctica,151,45,Festuca,2,0,23,0,0,13,3,0,,,6.5,0,3,4,2.5,0.625,42610,42610,240,46,1
+North Berwick,Euphrasia arctica,153,225,Festuca,2,0,12,0,0,10,2,0,,,6,0,2,2.5,1,0.4,42613,42613,243,15,0
+North Berwick,Euphrasia arctica,164,107,Festuca,2,0,21,1,0,12,3,0,,,5.5,0,3,3.5,2,0.571428571,42609,42609,239,37,1
+North Berwick,Euphrasia arctica,173,26,Festuca,2,0,36,0,0,9,2,0,,,4.5,0,2,4,4,1,42618,42618,248,31,1
+North Berwick,Euphrasia arctica,179,189,Festuca,2,0,36,0,0,9,3,0,,,6,0,2,3.5,3,0.857142857,42618,42618,248,33,1
+North Berwick,Euphrasia arctica,180,126,Festuca,2,0,27,0,0,12,2,0,,,5,0,2,4,2,0.5,42618,42618,248,21,1
+North Berwick,Euphrasia arctica,181,270,Festuca,2,0,15,0,0,10,1,0,,,5,0,1,5,2,0.4,42619,42619,249,16,1
+North Berwick,Euphrasia arctica,183,135,Festuca,2,0,12,0,0,10,3,0,,,7,0,3,4,1.5,0.375,42628,42628,258,43,1
+North Berwick,Euphrasia arctica,186,63,Festuca,2,0,10,0,0,8,1,0,,,5.5,0,3,2,0.5,0.25,42625,42625,255,5,0
+North Berwick,Euphrasia arctica,7,199,Holcus lanatus,5,0,30,4,0,8,4,0,9,6.5,7,0,3,8,3,0.375,42547,42547,177,90,0
+North Berwick,Euphrasia arctica,8,155,Holcus lanatus,5,0,24,3,0,7,4,0,9,6.5,7,0,3,7,3,0.428571429,42547,42547,177,69,0
+North Berwick,Euphrasia arctica,46,110,Holcus lanatus,5,0,22,4,0,9,3,0,9.5,6,7,0,3,6.5,3,0.461538462,42562,42562,192,90,0
+North Berwick,Euphrasia arctica,79,7,Holcus lanatus,5,0,14,0,0,11,3,0,7,5.5,6,0,3,4,1.5,0.375,42567,42567,197,43,0
+North Berwick,Euphrasia arctica,99,267,Holcus lanatus,5,0,13,0,0,8,2,0,,,7,0,2,4,1,0.25,42585,42585,215,35,0
+North Berwick,Euphrasia arctica,119,285,Holcus lanatus,5,0,16,1,0,9,3,0,,,6,0,2,3,2,0.666666667,42597,42597,227,45,0
+North Berwick,Euphrasia arctica,130,222,Holcus lanatus,5,0,13,0,0,11,3,0,,,5.5,0,3,3,1,0.333333333,42598,42598,228,12,0
+North Berwick,Euphrasia arctica,135,66,Holcus lanatus,5,0,10,0,0,10,2,0,,,6.5,0,2,4,1.5,0.375,42604,42604,234,16,1
+North Berwick,Euphrasia arctica,142,75,Holcus lanatus,5,0,17,0,0,11,2,0,,,6.5,0,2,4,2.5,0.625,42606,42606,236,26,1
+North Berwick,Euphrasia arctica,145,93,Holcus lanatus,5,0,13,0,0,11,2,0,,,6,0,2,3,1,0.333333333,42614,42614,244,12,1
+North Berwick,Euphrasia arctica,146,39,Holcus lanatus,5,0,8,0,0,9,2,0,,,5.5,0,2,2.5,1.5,0.6,42613,42613,243,8,1
+North Berwick,Euphrasia arctica,148,102,Holcus lanatus,5,0,19,0,0,11,2,0,,,6,0,2,2.5,1.5,0.6,42609,42609,239,16,1
+North Berwick,Euphrasia arctica,154,276,Holcus lanatus,5,0,27,1,0,11,2,0,,,6.5,0,2,4,2,0.5,42612,42612,242,45,1
+North Berwick,Euphrasia arctica,165,57,Holcus lanatus,5,0,13,0,0,9,2,0,,,,0,2,2.5,0.5,0.2,42620,42620,250,12,0
+North Berwick,Euphrasia arctica,171,240,Holcus lanatus,5,0,10,0,0,12,1,0,,,6,0,1,1.5,0.5,0.333333333,42628,42628,258,6,0
+North Berwick,Euphrasia arctica,176,258,Holcus lanatus,5,0,7,0,0,11,2,0,,,,0,2,2.5,0.5,0.2,42618,42618,248,4,0
+North Berwick,Euphrasia arctica,188,285,Holcus lanatus,5,0,16,1,0,9,3,0,,,6,0,2,3,2,0.666666667,42628,42628,258,45,0
+North Berwick,Euphrasia arctica,1,228,liverwort,7,0,14,0,0,8,3,0,8.5,5.5,6.5,0,2,5,2.5,0.5,42545,42545,175,26,1
+North Berwick,Euphrasia arctica,54,247,liverwort,7,0,9,0,0,8,2,0,6,4.5,4.5,0,2,3.5,1,0.285714286,42563,42563,193,12,0
+North Berwick,Euphrasia arctica,140,104,liverwort,7,0,8,0,0,10,1,0,7,,6,0,2,2,1,0.5,42607,42607,237,16,1
+North Berwick,Euphrasia arctica,160,237,liverwort,7,0,8,0,0,11,2,0,,,6,0,2,2,0.5,0.25,42610,42610,240,11,0
+North Berwick,Euphrasia arctica,168,138,liverwort,7,0,8,0,0,11,2,0,,,,0,2,3,1.5,0.5,42622,42622,252,7,1
+North Berwick,Euphrasia arctica,169,152,liverwort,7,0,11,0,0,12,2,0,,,,0,2,2.5,0.5,0.2,42623,42623,253,12,0
+North Berwick,Euphrasia arctica,174,255,liverwort,7,0,4,0,0,9,2,0,,,,0,2,2,1.5,0.75,42618,42618,248,1,0
+North Berwick,Euphrasia arctica,177,206,liverwort,7,0,17,0,0,9,0,0,,,,0,2,2,1,0.5,42618,42618,248,14,0
+North Berwick,Euphrasia arctica,193,87,liverwort,7,0,7,0,0,9,1,0,,,4.5,0,1,1.5,0.5,0.333333333,42638,42638,268,3,1
+North Berwick,Euphrasia arctica,62,251,no host,9,1,12,0,0,8,3,0,6.5,4.5,5,0,2,3,1.5,0.5,42562,42562,192,18,0
+North Berwick,Euphrasia arctica,116,233,no host,9,1,13,0,0,10,3,0,,,6,0,3,3.5,1,0.285714286,42593,42593,223,16,0
+North Berwick,Euphrasia arctica,141,5,no host,9,1,15,0,0,13,2,0,7,,6,0,2,3,1,0.333333333,42606,42606,236,12,0
+North Berwick,Euphrasia arctica,149,112,no host,9,1,10,0,0,11,2,0,,,6,0,2,2,1,0.5,42613,42613,243,10,0
+North Berwick,Euphrasia arctica,163,259,no host,9,1,11,0,0,10,2,0,,,5.5,0,3,3,0.5,0.166666667,42608,42608,238,-,0
+North Berwick,Euphrasia arctica,167,55,no host,9,1,10,0,0,9,1,0,,,5,0,1,1.5,0.5,0.333333333,42621,42621,251,6,1
+North Berwick,Euphrasia arctica,182,296,no host,9,1,18,0,0,7,2,0,,,,0,2,2.5,1,0.4,42620,42620,250,#N/A,#N/A
+North Berwick,Euphrasia arctica,185,233,no host,9,1,13,0,0,10,3,0,,,6,0,3,3.5,1,0.285714286,42624,42624,254,16,0
+North Berwick,Euphrasia arctica,191,269,no host,9,1,9,0,0,11,1,0,,,4,0,1,2,1,0.5,42639,42639,269,4,0
+North Berwick,Euphrasia arctica,192,143,no host,9,1,6,0,0,10,1,0,,,4.5,0,1,1.5,0.5,0.333333333,42636,42636,266,5,1
+North Berwick,Euphrasia arctica,194,28,no host,9,1,6,0,0,10,1,0,,,4.5,0,1,2,0.5,0.25,42668,,,,
+North Berwick,Euphrasia arctica,12,236,Pinus sylvestris,8,0,22,0,0,9,3,0,7,4.5,5.5,0,3,5,2,0.4,42549,42549,179,41,0
+North Berwick,Euphrasia arctica,98,227,Pinus sylvestris,8,0,14,0,0,11,2,0,,,5,0,2,3,1,0.333333333,42590,42590,220,-,0
+North Berwick,Euphrasia arctica,103,151,Pinus sylvestris,8,0,12,0,0,11,2,0,,,6,0,2,3,1,0.333333333,42586,42586,216,12,0
+North Berwick,Euphrasia arctica,123,137,Pinus sylvestris,8,0,9,0,0,9,2,0,,,6,0,2,4,1,0.25,42598,42598,228,19,1
+North Berwick,Euphrasia arctica,127,119,Pinus sylvestris,8,0,11,0,0,11,2,0,,,7,0,2,3,1,0.333333333,42598,42598,228,13,0
+North Berwick,Euphrasia arctica,128,173,Pinus sylvestris,8,0,13,0,0,11,2,0,,,7.5,0,2,3,1,0.333333333,42600,42600,230,28,1
+North Berwick,Euphrasia arctica,132,246,Pinus sylvestris,8,0,21,0,0,11,2,0,,,6.5,0,2,3,1,0.333333333,42602,42602,232,16,0
+North Berwick,Euphrasia arctica,152,76,Pinus sylvestris,8,0,7,0,0,11,2,0,,,5.5,0,2,2,0.5,0.25,42612,42612,242,25,1
+North Berwick,Euphrasia arctica,156,43,Pinus sylvestris,8,0,10,0,0,12,2,0,,,5.5,0,2,2.5,1,0.4,42613,42613,243,11,1
+North Berwick,Euphrasia arctica,157,254,Pinus sylvestris,8,0,7,0,0,11,2,0,,,5,0,2,1.5,0.5,0.333333333,42614,42614,244,#N/A,#N/A
+North Berwick,Euphrasia arctica,166,218,Pinus sylvestris,8,0,17,0,0,9,3,0,,,4.5,0,3,3.5,1,0.285714286,42621,42621,251,14,0
+North Berwick,Euphrasia arctica,170,52,Pinus sylvestris,8,0,12,0,0,9,1,0,,,,0,1,1.5,0.5,0.333333333,42623,42623,253,11,1
+North Berwick,Euphrasia arctica,172,160,Pinus sylvestris,8,0,6,0,0,11,1,0,,,4.5,0,1,1,0.5,0.5,42629,42629,259,7,0
+North Berwick,Euphrasia arctica,190,61,Pinus sylvestris,8,0,10,0,0,10,1,0,,,6,0,2,2,1.5,0.75,42637,42637,267,9,0
+North Berwick,Euphrasia arctica,3,221,Plantago lanceolata,4,0,21,0,0,7,3,0,8.5,6,6.5,0,2,5,2.5,0.5,42548,42548,178,63,0
+North Berwick,Euphrasia arctica,11,248,Plantago lanceolata,4,0,21,2,0,7,4,0,8.5,5,6.5,0,3,6,2.5,0.416666667,42550,42550,180,77,0
+North Berwick,Euphrasia arctica,19,257,Plantago lanceolata,4,0,18,3,0,7,3,0,9,5.5,7,0,4,7.5,2.5,0.333333333,42553,42553,183,7,0
+North Berwick,Euphrasia arctica,25,239,Plantago lanceolata,4,0,26,2,0,8,3,0,8.5,3,6.5,0,3,6.5,3,0.461538462,42556,42556,186,72,0
+North Berwick,Euphrasia arctica,58,154,Plantago lanceolata,4,0,13,0,0,8,3,0,8.5,5.5,6.5,0,3,4.5,1.5,0.333333333,42562,42562,192,32,0
+North Berwick,Euphrasia arctica,59,145,Plantago lanceolata,4,0,16,1,0,10,3,0,9,4.5,7,0,3,4,2,0.5,42563,42563,193,55,0
+North Berwick,Euphrasia arctica,65,230,Plantago lanceolata,4,0,14,0,0,9,3,0,7.5,5,5.5,0,3,4,1.5,0.375,42564,42564,194,15,0
+North Berwick,Euphrasia arctica,67,198,Plantago lanceolata,4,0,14,0,0,11,3,0,8,5.5,6,0,3,4,1.5,0.375,42567,42567,197,#N/A,#N/A
+North Berwick,Euphrasia arctica,75,122,Plantago lanceolata,4,0,16,1,0,10,3,0,8.5,5.5,6,0,2,5,1.5,0.3,42568,42568,198,32,0
+North Berwick,Euphrasia arctica,76,85,Plantago lanceolata,4,0,15,1,0,10,4,0,8,5,7,0,4,5,1.5,0.3,42568,42568,198,30,1
+North Berwick,Euphrasia arctica,80,94,Plantago lanceolata,4,0,16,0,0,7,3,0,7.5,5.5,6.5,0,3,7,2,0.285714286,42570,42570,200,26,1
+North Berwick,Euphrasia arctica,81,208,Plantago lanceolata,4,0,10,0,0,9,3,0,8,5.5,6,0,2,3,1.5,0.5,42571,42571,201,29,0
+North Berwick,Euphrasia arctica,84,109,Plantago lanceolata,4,0,17,1,0,10,4,0,8,5,6,0,3,4.5,2,0.444444444,42571,42571,201,30,0
+North Berwick,Euphrasia arctica,87,266,Plantago lanceolata,4,0,11,0,0,9,3,0,8,5,6,0,3,5,1,0.2,42574,42574,204,19,0
+North Berwick,Euphrasia arctica,92,40,Plantago lanceolata,4,0,9,0,0,10,2,0,6.5,,6,0,3,4,1.5,0.375,42578,42578,208,18,1
+North Berwick,Euphrasia arctica,93,167,Plantago lanceolata,4,0,10,0,0,9,2,0,7,,6.5,0,3,3,1,0.333333333,42576,42576,206,13,1
+North Berwick,Euphrasia arctica,97,8,Plantago lanceolata,4,0,14,0,0,10,3,0,8.5,,7,0,3,4.5,1.5,0.333333333,42577,42577,207,41,0
+North Berwick,Euphrasia arctica,104,76,Plantago lanceolata,4,0,21,0,0,10,3,0,,,6.5,0,3,5,1.5,0.3,42581,42581,211,25,1
+North Berwick,Euphrasia arctica,105,140,Plantago lanceolata,4,0,15,0,0,12,4,0,,,6,0,3,5,1.5,0.3,42584,42584,214,22,1
+North Berwick,Euphrasia arctica,108,284,Plantago lanceolata,4,0,14,0,0,9,3,0,,,7,0,3,4,2,0.5,42592,42592,222,50,0
+North Berwick,Euphrasia arctica,111,49,Plantago lanceolata,4,0,9,0,0,8,3,0,,,6,0,3,3.5,1,0.285714286,42593,42593,223,14,1
+North Berwick,Euphrasia arctica,112,67,Plantago lanceolata,4,0,10,0,0,7,2,0,,,5.5,0,2,2,1,0.5,42593,42593,223,10,1
+North Berwick,Euphrasia arctica,115,163,Plantago lanceolata,4,0,15,0,0,11,3,0,,,6,0,3,5,1.5,0.3,42595,42595,225,12,1
+North Berwick,Euphrasia arctica,120,185,Plantago lanceolata,4,0,9,0,0,8,2,0,,,5,0,2,3,1,0.333333333,42597,42597,227,16,1
+North Berwick,Euphrasia arctica,121,176,Plantago lanceolata,4,0,13,0,0,12,3,0,,,5,0,3,4,1.5,0.375,42600,42600,230,26,1
+North Berwick,Euphrasia arctica,124,31,Plantago lanceolata,4,0,13,0,0,10,2,0,,,6,0,2,3,1,0.333333333,42599,42599,229,4,1
+North Berwick,Euphrasia arctica,126,58,Plantago lanceolata,4,0,13,0,0,9,3,0,,,6,0,2,4,1.5,0.375,42600,42600,230,-,0
+North Berwick,Euphrasia arctica,136,131,Plantago lanceolata,4,0,11,1,0,11,2,0,,,5.5,0,2,4,2,0.5,42604,42604,234,30,1
+North Berwick,Euphrasia arctica,143,22,Plantago lanceolata,4,0,10,0,0,9,3,0,,,6,0,3,4,1.5,0.375,42607,42607,237,24,1
+North Berwick,Euphrasia arctica,184,163,Plantago lanceolata,4,0,15,0,0,11,3,0,,,6,0,3,5,1.5,0.3,42628,42628,258,12,1
+North Berwick,Euphrasia arctica,189,185,Plantago lanceolata,4,0,9,0,0,8,2,0,,,5,0,2,3,1,0.333333333,42628,42628,258,16,1
+North Berwick,Euphrasia arctica,4,210,Trifolium repens,1,0,43,4,1,7,5,0,10,7.5,7.5,0,3,11,4,0.363636364,42545,42545,175,149,0
+North Berwick,Euphrasia arctica,6,200,Trifolium repens,1,0,36,5,1,10,4,0,9,6,7,0,4,10,4,0.4,42547,42547,177,80,0
+North Berwick,Euphrasia arctica,14,133,Trifolium repens,1,0,34,3,0,7,5,0,10,7,7.5,0,3,14.5,6,0.413793103,42549,42549,179,-,1
+North Berwick,Euphrasia arctica,18,24,Trifolium repens,1,0,45,6,1,9,4,0,10.5,8,7,0,3,13,5,0.384615385,42551,42551,181,-,1
+North Berwick,Euphrasia arctica,20,268,Trifolium repens,1,0,27,2,0,8,3,0,8,5,6,0,3,5,3,0.6,42552,42552,182,-,0
+North Berwick,Euphrasia arctica,22,15,Trifolium repens,1,0,39,4,0,7,4,0,9.5,7,7,0,3,7,4.5,0.642857143,42548,42548,178,152,0
+North Berwick,Euphrasia arctica,28,241,Trifolium repens,1,0,24,1,0,11,4,0,7.5,3,6,0,3,5.5,2,0.363636364,42558,42558,188,#N/A,#N/A
+North Berwick,Euphrasia arctica,30,65,Trifolium repens,1,0,34,5,1,8,3,0,9.5,3,7,0,3,13,12,0.923076923,42557,42557,187,186,1
+North Berwick,Euphrasia arctica,31,38,Trifolium repens,1,0,48,6,1,8,4,0,10.5,4,8,0,4,12,10,0.833333333,42558,42558,188,136,1
+North Berwick,Euphrasia arctica,32,223,Trifolium repens,1,0,28,6,0,9,3,0,8,3,6,0,3,9,4.5,0.5,42558,42558,188,133,0
+North Berwick,Euphrasia arctica,33,169,Trifolium repens,1,0,34,5,1,8,4,0,11.5,4,9,0,4,11,5,0.454545455,42557,42557,187,142,1
+North Berwick,Euphrasia arctica,34,232,Trifolium repens,1,0,23,4,0,8,3,0,9,2,7,0,2,7,4,0.571428571,42558,42558,188,#N/A,#N/A
+North Berwick,Euphrasia arctica,35,38,Trifolium repens,1,0,48,6,1,8,4,0,9,3,7,0,3,12,8,0.666666667,42556,42556,186,136,1
+North Berwick,Euphrasia arctica,39,56,Trifolium repens,1,0,39,8,1,9,4,0,9,6,7,0,3,15,4,0.266666667,42561,42561,191,166,1
+North Berwick,Euphrasia arctica,40,83,Trifolium repens,1,0,68,7,1,9,5,0,10.5,6,8,0,4,14,11,0.785714286,42559,42559,189,189,1
+North Berwick,Euphrasia arctica,44,47,Trifolium repens,1,0,57,6,1,8,4,0,11,7,8.5,0,3,13,9,0.692307692,42560,42560,190,#N/A,#N/A
+North Berwick,Euphrasia arctica,45,111,Trifolium repens,1,0,20,2,0,7,3,0,8,5.5,6,0,3,6,2,0.333333333,42562,42562,192,173,0
+North Berwick,Euphrasia arctica,52,74,Trifolium repens,1,0,64,6,1,8,5,0,11,7.5,8.5,0,3,13,8,0.615384615,42559,42559,189,183,0
+North Berwick,Euphrasia arctica,57,156,Trifolium repens,1,0,38,4,1,9,4,0,11.5,8,9,0,3,8,4.5,0.5625,42559,42559,189,141,0
+North Berwick,Euphrasia arctica,61,142,Trifolium repens,1,0,50,7,1,10,4,0,10.5,6.5,8,0,3,12,6,0.5,42560,42560,190,112,1
+North Berwick,Euphrasia arctica,64,101,Trifolium repens,1,0,57,7,1,10,5,0,10,8,7.5,0,4,15,7,0.466666667,42559,42559,189,151,1
+North Berwick,Euphrasia arctica,68,178,Trifolium repens,1,0,47,5,0,10,4,0,9,5.5,6.5,0,3,11,7,0.636363636,42569,42569,199,174,1
+North Berwick,Euphrasia arctica,70,147,Trifolium repens,1,0,10,0,0,8,2,0,7.5,5,7,0,2,4.5,1,0.222222222,42566,42566,196,16,0
+North Berwick,Euphrasia arctica,71,20,Trifolium repens,1,0,37,6,0,9,4,0,9,6,8,0,3,9,4.5,0.5,42568,42568,198,168,0
+North Berwick,Euphrasia arctica,73,187,Trifolium repens,1,0,38,6,0,9,4,0,11,8,8,0,3,12,4,0.333333333,42566,42566,196,#N/A,#N/A
+North Berwick,Euphrasia arctica,88,250,Trifolium repens,1,0,52,5,0,10,4,0,10,7,8,0,5,8,7,0.875,42574,42574,204,201,1
+North Berwick,Euphrasia arctica,125,92,Trifolium repens,1,0,25,2,0,10,3,0,,,6.5,0,3,6,3,0.5,42599,42599,229,77,1
