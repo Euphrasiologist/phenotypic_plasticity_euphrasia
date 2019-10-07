@@ -223,9 +223,11 @@ specify_decimal <- function(x, k) trimws(format(round(x, k), nsmall=k))
 
 ##### Phenotypic plasticity experiment #####
 
+# read in the data
 NBerwickme<- read.csv("./Data/manyhosts.csv")
 setDT(NBerwickme)
 
+# calculate means and sd's
 PPmeanSD<-NBerwickme[, .(`Mean Height` = mean(Height),
                `SE Height` = sd(Height)/sqrt(.N),
                `Mean Number of Branches` = mean(No_branches),
@@ -241,7 +243,7 @@ PPmeanSD<-NBerwickme[, .(`Mean Height` = mean(Height),
                `Mean Julian Days to Flower` = mean(Julian_days_to_flower, na.rm = TRUE),
                `SE Julian Days to Flower` = sd(Julian_days_to_flower, na.rm = TRUE)/sqrt(.N)
 ), by = .(Host)]
-
+# write to file
 write.csv(x = cbind(PPmeanSD[,1], specify_decimal(PPmeanSD[,-1], 2)), file = "./Output/Phenotypic_plasticity/Means_SE_PP.csv")
 
 # correlations
@@ -259,20 +261,30 @@ cormanyhost1$P
 # Run with host as a fixed effect. #
 
 NBerwickme<- read.csv("./Data/Manyhosts.csv")
+# change the names
 levels(NBerwickme$Host)[c(2,3,5,6)] <- c("Equisetum arvense", "Festuca rubra", "Marchantia polymorpha", "No host")
 
 ## 1.1 Height
 
+### Distribution of height across all individuals to see if it's bimodal ###
+
+lattice::densityplot(NBerwickme$Height) #or
+ggplot(NBerwickme, aes(x = Height)) +geom_jitter(aes(y =0), height = 0.001)+
+  theme_bw()+geom_density()
+
+# relevel so no host is baseline
 NBerwickme$Host <- relevel(x = NBerwickme$Host, ref = "No host")
 
+# models are specified below, height is log(height)
 height1 <- lm(log(Height) ~ Host, data=NBerwickme)
+# write to csv the coefficients of the model and the anova
 write.csv(x = tidy(height1), 
           file = "./Output/Phenotypic_plasticity/PP_height.csv")
 write.csv(anova(height1), file =  "./Output/Phenotypic_plasticity/PP_height_anova.csv") #effect of host is highly significant
-
+# tukey tests here
 tukeyheight <- tidy(TukeyHSD(aov(height1)))
 write.csv(tukeyheight, file =  "./Output/Phenotypic_plasticity/PP_height_tukey.csv")
-
+# and a plot for the tukey tests
 g_lmfixplot(height1)
 
 ## 1.2 Nodes_to_flower_inc_coty
@@ -1242,308 +1254,3 @@ a6<-ggplot(tidy.pop.b[, .(mean = mean(Value),
 # ditch multiple populations and branches!!
 plot_grid(... = a1,a2,a3,a4,a5.1, nrow = 1, labels = "AUTO", rel_widths = c(3,3,3,3,1.5))
 
-##### Rebuttal letter analyses 1.5.19 #####
-
-### 2. Distribution of height across all individuals to see if it's bimodal ###
-
-lattice::densityplot(NBerwickme$Height) #or
-ggplot(NBerwickme, aes(x = Height)) +geom_jitter(aes(y =0), height = 0.001)+
-  theme_bw()+geom_density()
-
-### 5. Many species fixed effect models. ###
-
-manysp$Expert_ID_living <- relevel(manysp$Expert_ID_living, ref = "E. arctica")
-manysp2 <- manysp[!grepl(pattern = " x ", fixed = TRUE, x = manysp$Expert_ID_living),]
-
-
-## 5.1 Height
-
-modmanysp1.2<- lm(log(Height) ~ Expert_ID_living, data=manysp2)
-
-summary(modmanysp1.2)
-
-tukeymodmanysp1.2 <- tidy(TukeyHSD(aov(modmanysp1.2)))
-
-g_lmfixplot(modmanysp1.2)
-
-## 5.2 Nodes
-
-modmanysp2.2 <- glm(Nodes_to_flower_inc_coty ~ Expert_ID_living,
-                    data = manysp, family = "poisson")
-
-summary(modmanysp2.2)
-
-tukeymodmanysp2.2 <- tidy(TukeyHSD(aov(modmanysp2.2)))
-
-g_lmfixplot(modmanysp2.2)
-
-## 5.3 corolla
-
-modmanysp3.2 <- lm(Standard_corolla_l ~ Expert_ID_living, data = manysp, na.action = na.omit)
-
-summary(modmanysp3.2)
-
-tukeymodmanysp3.2 <- tidy(TukeyHSD(aov(modmanysp3.2)))
-
-g_lmfixplot(modmanysp3.2)
-
-## 5.4 ratio
-
-modmanysp4.2 <- lm(log(Cauline_ratio) ~ Expert_ID_living, data = manysp)
-
-summary(modmanysp4.2)
-
-tukeymodmanysp4.2 <- tidy(TukeyHSD(aov(modmanysp4.2)))
-
-g_lmfixplot(modmanysp4.2)
-
-## 5.5 julian days to flower
-
-modmanysp5.2 <- glm(Julian_days_to_flower ~ Expert_ID_living, data = manysp, family = "poisson", na.action = na.omit)
-
-summary(modmanysp5.2)
-
-tukeymodmanysp5.2 <- tidy(TukeyHSD(aov(modmanysp5.2)))
-
-g_lmfixplot(modmanysp5.2)
-
-## 5.6 number of branches
-manysp$obs <- as.factor(1:nrow(manysp))
-modmanysp6.2 <- glmer(No_branches ~ Expert_ID_living + (1 | E4E:Expert_ID_living) + (1 | obs), data = manysp, family = "poisson")
-summary(modmanysp6.2)
-
-# slightly different method of calculating tukeys because of overdispersion.
-g_lmerfixplot(modmanysp6.2)
-
-
-## 5.7 teeth
-
-modmanysp7.2 <- glm(No_teeth_lower_floral_leaf ~ Expert_ID_living, data = manysp, family = "poisson")
-
-anova(modmanysp7.2, test = "Chisq")
-
-tukeymodmanysp7.2 <- tidy(TukeyHSD(aov(modmanysp7.2)))
-
-g_lmfixplot(modmanysp7.2)
-
-
-####################
-# 1. Height 
-
-# full model
-lme1b<- lmer(log(Height) ~ Host_no_host+ (1| Host), 
-             data=NBerwickme, na.action = na.omit)
-# model without random effect
-lme1c <- lm(log(Height) ~ Host_no_host, 
-            data=NBerwickme, na.action = na.omit)
-# model without fixed effect
-lme1d <- lmer(log(Height) ~ 1 + (1| Host), 
-              data=NBerwickme, na.action = na.omit)
-
-# likelihood ratio tests (LRT's)
-anova(lme1b, lme1c)
-anova(lme1d, lme1b)
-
-# MCMCglmm for variance explained
-prior.mcmchost1<-list(R=list(V=diag(1), nu=0.002), 
-                      G=list(G1=list(V=diag(1), nu=0.002)))
-
-mcmchost1 <- MCMCglmm(Height ~ Host_no_host, 
-                      random = ~ Host,
-                      prior = prior.mcmchost1,
-                      data = NBerwickme,
-                      nitt = 13000*7,
-                      burnin = 3000*7,
-                      thin = 10*7)
-# check traces
-traces(mcmchost1)
-# summary output
-summary(mcmchost1)
-# variance explained 
-MCMCRepnorm(mod = mcmchost1, y = "Host")
-
-# without mixed effect...
-
-NBerwickme$Host <- relevel(x = NBerwickme$Host, ref = "no host")
-
-summary(lm(Height ~ Host, data = NBerwickme))
-
-# 2. Nodes to flower
-
-# full model
-lme2b<- glmer(Nodes_to_flower_inc_coty ~ Host_no_host + (1 | Host), 
-              data=NBerwickme, family = "poisson")
-# without fixed effects
-lme2c <- glmer(Nodes_to_flower_inc_coty ~ 1 + (1 | Host), 
-               data=NBerwickme, family = "poisson")
-# without random effects
-lme2d <- glm(Nodes_to_flower_inc_coty ~ Host_no_host, 
-             data=NBerwickme, family = "poisson")
-# LRT's
-anova(lme2b, lme2c)
-anova(lme2b, lme2d)
-
-# MCMCglmm for variance explained
-prior.mcmchost2<-list(R=list(V=diag(1), nu=0.002), 
-                      G=list(G1=list(V=diag(1), nu=0.002)))
-
-mcmchost2 <- MCMCglmm(Nodes_to_flower_inc_coty ~ Host_no_host, random = ~ Host,
-                      prior = prior.mcmchost2,
-                      data = NBerwickme,
-                      family = "poisson",
-                      nitt = 13000*7,
-                      burnin = 3000*7,
-                      thin = 10*7)
-# traces output
-traces(mcmchost2)
-# summary output
-summary(mcmchost2)
-# variance explained
-MCMCReppois(mcmchost2, "Host")
-
-# 3. Corolla length
-
-# remove outliers
-NBerwickme[NBerwickme$Host == "Arabidopsis thaliana", ][16]
-## the 20th data point
-NBerwickme[NBerwickme$Host == "Equisetum", ][16]
-## the 37th data point
-
-# full model
-lme3b<- lmer(Standard_corolla_l ~ Host_no_host + (1 | Host), 
-             data=NBerwickme[c(-20, -37),], na.action = na.omit)
-# model without fixed effects
-lme3c<- lmer(Standard_corolla_l ~ 1 + (1 | Host), 
-             data=NBerwickme[c(-20, -37),], na.action = na.omit)
-# model without random effects
-lme3d<- lm(Standard_corolla_l ~ Host_no_host, 
-           data=NBerwickme[c(-20, -37),], na.action = na.omit)
-# LRT's
-anova(lme3b, lme3c)
-anova(lme3b, lme3d)
-
-# MCMCglmm for variance explained
-# note parameter expanded prior for better mixing
-prior.mcmchost3<-list(R=list(V=diag(1), nu=0.002), 
-                      G=list(G1=list(V=diag(1), nu=1, alpha.mu=rep(0,1), alpha.V=diag(1)*1000)))
-
-mcmchost3 <- MCMCglmm(Standard_corolla_l ~ Host_no_host, random = ~ Host,
-                      prior = prior.mcmchost3,
-                      data = NBerwickme,
-                      nitt = 13000*7,
-                      burnin = 3000*7,
-                      thin = 10*7)
-# traces output
-traces(mcmchost3)
-#summary output
-summary(mcmchost3)
-# variance explained
-MCMCRepnorm(mod = mcmchost3, y = "Host")
-
-
-# 4. Internode ratio 
-
-# remove outlier, 54th data point
-NBerwickme[NBerwickme$Host == "Equisetum", ][21]
-
-# full model 
-lme4b<- lmer(Cauline_ratio ~ Host_no_host + (1 | Host), 
-             data=NBerwickme[-54,], na.action = na.omit)
-# without fixed effects
-lme4c<- lmer(Cauline_ratio ~ 1 + (1 | Host), 
-             data=NBerwickme[-54,], na.action = na.omit)
-# without random effects
-lme4d<- lm(Cauline_ratio ~ Host_no_host, 
-           data=NBerwickme[-54,], na.action = na.omit)
-# LRT's
-anova(lme4b, lme4d)
-anova(lme4b, lme4c)
-
-
-# MCMCglmm
-prior.mcmchost4<-list(R=list(V=diag(1), nu=0.002), 
-                      G=list(G1=list(V=diag(1), nu=0.002)))
-
-mcmchost4 <- MCMCglmm(Cauline_ratio ~ Host_no_host, random = ~ Host,
-                      prior = prior.mcmchost4,
-                      data = NBerwickme,
-                      nitt = 13000*13,
-                      burnin = 3000*13,
-                      thin = 10*13)
-# summary output
-summary(mcmchost4)
-# traces output
-traces(mod = mcmchost4)
-# variance explained
-MCMCRepnorm(mcmchost4, y = "Host")
-
-
-# 5. Julian days to flower
-
-# full model 
-lme5b <- glmer(Julian_days_to_flower ~ Host_no_host + (1 | Host) + (1 | Obs), 
-               data=NBerwickme, na.action = na.omit, family = "poisson")
-lme5c <- glmer(Julian_days_to_flower ~ 1 + (1 | Host) + (1 | Obs), 
-               data=NBerwickme, na.action = na.omit, family = "poisson")
-lme5d <- glm(Julian_days_to_flower ~ Host_no_host, 
-             data=NBerwickme, na.action = na.omit, family = "poisson")
-
-anova(lme5b, lme5d)
-anova(lme5c, lme5b)
-
-# MCMCglmm 
-
-prior.mcmchost5<-list(R=list(V=diag(1), nu=0.002), 
-                      G=list(G1=list(V=diag(1), nu=1, alpha.mu=rep(0,1), alpha.V=diag(1)*1000)))
-
-mcmchost5 <- MCMCglmm(Julian_days_to_flower ~ Host_no_host, random = ~ Host,
-                      prior = prior.mcmchost5,
-                      data = NBerwickme,
-                      family = "poisson",
-                      nitt = 13000*7,
-                      burnin = 3000*7,
-                      thin = 10*7)
-# model outputs
-summary(mcmchost5)
-traces(mod = mcmchost5)
-MCMCReppois(mcmchost5, y = "Host")
-
-# 6. Number of branches (models not working: check distributions and rerun)
-
-lme6b <- glmer(No_branches ~ Host_no_host + (1 | Host), 
-               data=NBerwickme, family = "poisson") # Hessian numerically singular...
-lme6c <- glmer(No_branches ~ 1 + (1 | Host), 
-               data=NBerwickme, family = "poisson", na.action = na.omit)
-lme6d <- glm(No_branches ~ Host_no_host, 
-             data=NBerwickme, family = "poisson", na.action = na.omit)
-
-anova(lme6b, lme6c)
-anova(lme6b, lme6d)
-
-# 7. Number of teeth on the lower floral leaf 
-
-lme7b <- glmer(No_teeth_lower_floral_leaf ~ Host_no_host + (1 | Host), 
-               data=NBerwickme, family = "poisson", na.action = na.omit)
-lme7c <- glmer(No_teeth_lower_floral_leaf ~ 1 + (1 | Host), 
-               data=NBerwickme, family = "poisson", na.action = na.omit)
-lme7d <- glm(No_teeth_lower_floral_leaf ~ Host_no_host, 
-             data=NBerwickme, family = "poisson", na.action = na.omit)
-
-anova(lme7b, lme7c)
-anova(lme7b, lme7d)
-
-# MCMCglmm
-
-prior.mcmchost7<-list(R=list(V=diag(1), nu=0.002), 
-                      G=list(G1=list(V=diag(1), nu=1, alpha.mu=rep(0,1), alpha.V=diag(1)*1000)))
-mcmchost7 <- MCMCglmm(No_teeth_lower_floral_leaf ~ Host_no_host, random = ~ Host,
-                      prior = prior.mcmchost7,
-                      data = NBerwickme,
-                      family = "poisson",
-                      nitt = 13000*13,
-                      burnin = 3000*13,
-                      thin = 10*13)
-# model outputs
-summary(mcmchost6)
-traces(mod = mcmchost6)
-MCMCReppois(mcmchost6, y = "Host")
