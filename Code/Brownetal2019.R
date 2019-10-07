@@ -19,7 +19,7 @@ library(tidyr)
 library(lme4)
 library(MCMCglmm)
 library(lattice)
-library(Hmisc)
+library(Hmisc); library(RcmdrMisc)
 
 library(data.table)
 library(broom)
@@ -252,12 +252,14 @@ cormanyhost<-NBerwickme[,c(8, 9, 11, 12, 16, 21, 24)]
 # convert to matrix
 cormanyhost <- as.matrix(cormanyhost)
 # compute correlation matrix
-cormanyhost1 <- rcorr(x = cormanyhost)
-# calculation of r^2
-cormanyhost1$r ^ 2
-# associated p-values
-cormanyhost1$P
+cormanyhost1 <- rcorr.adjust(x = cormanyhost, use = "pairwise.complete.obs")
 
+# calculation of r
+cormanyhost1$R$r
+write.csv(x = cormanyhost1$R$r, file = "./Output/Phenotypic_plasticity/CorrelationsR.csv")
+# associated p-values (adjusted)
+cormanyhost1$P
+write.csv(x = cormanyhost1$P, file = "./Output/Phenotypic_plasticity/CorrelationsP.csv")
 # Run with host as a fixed effect. #
 
 NBerwickme<- read.csv("./Data/Manyhosts.csv")
@@ -452,11 +454,13 @@ cormanysp<-manysp[,c(6,7,9,10,12,16,17)]
 # convert to matrix
 cormanysp <- as.matrix(cormanysp)
 # compute correlation matrix
-cormanysp1 <- rcorr(x = cormanysp)
-# calculation of r^2
-cormanysp1$r ^ 2
+cormanysp1 <- rcorr.adjust(x = cormanysp, use = "pairwise.complete.obs")
+# calculation of r
+cormanysp1$R$r
+write.csv(x = cormanysp1$R$r, file = "./Output/Species_differences/CorrelationsR.csv")
 # associated p-values
 cormanysp1$P 
+write.csv(x = cormanysp1$P, file = "./Output/Species_differences/CorrelationsP.csv")
 
 # 1. Height
 # full model
@@ -941,8 +945,7 @@ summary(mcmcheight)
 traces(mcmcheight)
 
 # correlation between height at end of season and height at first flowering
-# square to calculate r squared
-rcorr(earlylate$Height, earlylate$Height_end_season)$r[2]^2 
+rcorr(earlylate$Height, earlylate$Height_end_season)$r[2]
 
 # 2. Height at end of season as a function of early season growth
 
@@ -960,8 +963,7 @@ summary(mcmcheight2)
 traces(mcmcheight2)
 
 # correlation between height at end of season and height at first flowering
-# square to calculate r squared
-rcorr(earlylate$Early.season.growth, earlylate$Height_end_season)$r[2]^2 
+rcorr(earlylate$Early.season.growth, earlylate$Height_end_season)$r[2]
 
 
 # 3. Days to flower as a function of height at end of season
@@ -980,8 +982,7 @@ summary(mcmcheight3)
 traces(mcmcheight3)
 
 # correlation between height at end of season and height at first flowering
-# square to calculate r squared
-rcorr(earlylate$Julian.days.to.flower, earlylate$Height_end_season)$r[2]^2 
+rcorr(earlylate$Julian.days.to.flower, earlylate$Height_end_season)$r[2]
 
 
 # 4. Number of branches as a function of height at end of season
@@ -1000,8 +1001,7 @@ summary(mcmcheight4)
 traces(mcmcheight4)
 
 # correlation between height at end of season and height at first flowering
-# square to calculate r squared
-rcorr(earlylate$No..branches, earlylate$Height_end_season)$r[2]^2 
+rcorr(earlylate$No..branches, earlylate$Height_end_season)$r[2]
 
 
 ##### Common garden vs Wild #####
