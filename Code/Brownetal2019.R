@@ -1254,3 +1254,99 @@ a6<-ggplot(tidy.pop.b[, .(mean = mean(Value),
 # ditch multiple populations and branches!!
 plot_grid(... = a1,a2,a3,a4,a5.1, nrow = 1, labels = "AUTO", rel_widths = c(3,3,3,3,1.5))
 
+##### Additional analysis; removing Pinus and Marchantia #####
+
+`%!in%` <- function(x,y)!('%in%'(x,y))
+
+NBerwickme_add <- setDT(NBerwickme)[Host %!in% c("Marchantia polymorpha", "Pinus sylvestris")]
+# relevel so no host is baseline
+NBerwickme_add$Host <- relevel(x = NBerwickme_add$Host, ref = "No host")
+
+
+
+# models are specified below, height is log(height)
+height1.1 <- lm(log(Height) ~ Host, data=NBerwickme_add)
+# write to csv the coefficients of the model and the anova
+write.csv(x = tidy(height1.1), 
+          file = "./Output/Phenotypic_plasticity/PP_height_minusPM.csv")
+write.csv(anova(height1.1), file =  "./Output/Phenotypic_plasticity/PP_height_anova_minusPM.csv") #effect of host is highly significant
+# tukey tests here
+tukeyheight1.1 <- tidy(TukeyHSD(aov(height1.1)))
+write.csv(tukeyheight1.1, file =  "./Output/Phenotypic_plasticity/PP_height_tukey_minusPM.csv")
+# and a plot for the tukey tests
+g_lmfixplot(height1.1)
+
+## 1.2 Nodes_to_flower_inc_coty
+
+nodes1.1 <- glm(Nodes_to_flower_inc_coty ~ Host, 
+              data=NBerwickme_add, family = "poisson")
+write.csv(x = tidy(nodes1.1), 
+          file = "./Output/Phenotypic_plasticity/PP_nodes_mins_PM.csv")
+write.csv(anova(nodes1.1, test = "Chisq"), file =  "./Output/Phenotypic_plasticity/PP_nodes_anova_minusPM.csv") 
+
+tukeynodes1.1 <- tidy(summary(glht(nodes1.1, mcp(Host="Tukey"))))
+write.csv(tukeynodes1.1, file =  "./Output/Phenotypic_plasticity/PP_nodes_tukey_minus_PM.csv")
+
+g_lmfixplot(nodes1.1, factor = mcp(Host = "Tukey"))
+
+## 1.3 Standard_corolla_l
+
+corol1.1 <- lm(Standard_corolla_l ~ Host, 
+             data=NBerwickme_add[c(-20, -37),], na.action = na.omit)
+
+summary(corol1.1)
+write.csv(x = tidy(corol1.1), 
+          file = "./Output/Phenotypic_plasticity/PP_corolla_minus_PM.csv")
+write.csv(anova(corol1.1), file =  "./Output/Phenotypic_plasticity/PP_corolla_anova_minusPM.csv") #effect of host is highly significant
+
+tukeycorol1.1 <- tidy(TukeyHSD(aov(corol1.1)))
+write.csv(tukeycorol1.1, file =  "./Output/Phenotypic_plasticity/PP_corolla_tukey_minus_PM.csv")
+
+g_lmfixplot(corol1.1)
+
+## 1.4 Cauline_ratio
+
+ratio1.1 <- lm(Cauline_ratio ~ Host, 
+             data=NBerwickme_add[-54,], na.action = na.omit)
+summary(ratio1.1)
+
+write.csv(x = tidy(ratio1.1), 
+          file = "./Output/Phenotypic_plasticity/PP_cauline_ratio_minus_PM.csv")
+write.csv(anova(ratio1.1), file =  "./Output/Phenotypic_plasticity/PP_cauline_ratio_anova_minus_PM.csv") # effect of host is highly significant
+
+tukeyratio1.1 <- tidy(TukeyHSD(aov(ratio1.1)))
+write.csv(tukeyratio1.1, file =  "./Output/Phenotypic_plasticity/PP_cauline_ratio_tukey_minus_PM.csv")
+
+g_lmfixplot(ratio1.1)
+
+## 1.5 Julian_days_to_flower
+
+
+julian1.1 <- glm(Julian_days_to_flower ~ Host, 
+               data=NBerwickme_add, na.action = na.omit, family = "poisson")
+
+summary(julian1.1)
+
+write.csv(x = tidy(julian1.1), 
+          file = "./Output/Phenotypic_plasticity/PP_julian_minusPM.csv")
+write.csv(anova(julian1.1, test = "Chisq"), file =  "./Output/Phenotypic_plasticity/PP_julian_anova_minus_PM.csv") #effect of host is highly significant
+
+tukeyjulian1.1 <-  tidy(summary(glht(julian1.1, mcp(Host="Tukey"))))
+write.csv(tukeyjulian1.1, file =  "./Output/Phenotypic_plasticity/PP_julian_tukey_minus_PM.csv")
+
+g_lmfixplot(julian1.1, tukey = FALSE, mcp(Host = "Tukey"))
+
+## 1.6 No_branches. Not a good model (omit...)
+## 1.7 No_teeth_lower_floral_leaf
+
+teeth1.1 <- glm(No_teeth_lower_floral_leaf ~ Host, 
+              data=NBerwickme_add, family = "poisson", na.action = na.omit)
+
+write.csv(x = tidy(teeth1.1), 
+          file = "./Output/Phenotypic_plasticity/PP_teeth_minusPM.csv")
+write.csv(anova(teeth1.1, test = "Chisq"), file =  "./Output/Phenotypic_plasticity/PP_teeth_anova_minus_PM.csv") #effect of host is highly significant
+
+tukeyteeth1.1 <- tidy(summary(glht(teeth1.1, mcp(Host="Tukey"))))
+write.csv(tukeyteeth1.1, file =  "./Output/Phenotypic_plasticity/PP_teeth_tukey_minus_PM.csv")
+
+g_lmfixplot(teeth1.1,  mcp(Host = "Tukey"), tukey = FALSE)
