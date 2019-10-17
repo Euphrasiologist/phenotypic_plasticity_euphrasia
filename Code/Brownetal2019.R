@@ -442,6 +442,10 @@ SPMeanSD <- manysp[, .(`Mean Height` = mean(Height),
             `Mean Julian Days to Flower` = mean(Julian_days_to_flower, na.rm = TRUE),
             `SE Julian Days to Flower` = sd(Julian_days_to_flower, na.rm = TRUE)/sqrt(.N)
 ), by = .(Expert_ID_living)]
+# the fold variation
+SPMeanSD[!grepl(" x ", Expert_ID_living), lapply(.SD, function(x) max(round(x), na.rm = TRUE)/min(round(x), na.rm = TRUE)), .SDcols = names(SPMeanSD)[!grepl("SE|Expert", names(SPMeanSD))]]
+# scaled variance
+SPMeanSD[!grepl(" x ", Expert_ID_living), lapply(.SD, function(x) var(scale(x, center = FALSE), na.rm = TRUE)), .SDcols = names(SPMeanSD)[!grepl("SE|Expert", names(SPMeanSD))]]
 
 write.csv(x = cbind(SPMeanSD[,1], specify_decimal(SPMeanSD[,-1], 2)), 
           file = "./Output/Species_differences/Means_SE_SD.csv")
@@ -1045,11 +1049,6 @@ write.csv(x = data.table(UNITS = MCMCReppois(mcmc.cor.n, "units"),
                          E4E = MCMCReppois(mcmc.cor.n, y = "E4E")), 
           file = "./Output/Common_wild/Nodes/CW_nodes_variances.csv")
 
-## plot ##
-library(data.table)
-
-
-
 # 2. Standard corolla length
 
 tidy.pop.c <- filter(tidy.pop, tidy.pop$Variable == "Standard.corolla.l")
@@ -1083,10 +1082,6 @@ write.csv(x = data.table(UNITS = MCMCRepnorm(mcmc.cor.c, "units"),
                          E4E = MCMCRepnorm(mcmc.cor.c, y = "E4E")), 
           file = "./Output/Common_wild/Corolla/CW_corolla_variances.csv")
 
-# plot
-
-
-
 # 3. Cauline internode ratio
 
 tidy.pop.lr <- filter(tidy.pop, tidy.pop$Variable == "Cauline.internode.leaf.ratio")
@@ -1119,9 +1114,6 @@ write.csv(x = data.table(UNITS = MCMCRepnorm(mcmc.cor.lr, "units"),
                          SPECIES = MCMCRepnorm(mcmc.cor.lr, y = "Species"),
                          E4E = MCMCRepnorm(mcmc.cor.lr, y = "E4E")), 
           file = "./Output/Common_wild/Cauline_ratio/CW_cauline_ratio_variances.csv")
-
-#plot
-
 
 # 4. Number of teeth on the lower floral leaf
 
