@@ -407,7 +407,7 @@ write.csv(x = specify_decimal(percentvarhosts3, 3), file = "./Output/PCA/Hosts_P
 one.pca.2 <- as.data.frame(Nberwickpca$x)
 one.pca.2$Host <- PCANB2$Host
 
-ggplot(one.pca.2, aes(x = PC1, y= PC2,
+PCA3<- ggplot(one.pca.2, aes(x = PC1, y= PC2,
                       group = Host,
                       colour=Host))+
   geom_point(aes(group = Host, colour=Host), size =2)+
@@ -879,7 +879,7 @@ one.pca.1 <- as.data.frame(one.pca$x)
 one.pca.1$Pop <- PCAone2$E4E
 one.pca.1$Species <- PCAone2$Expert_ID_living
 
-ggplot(one.pca.1, aes(x = PC1, y= PC2,
+PCA1<- ggplot(one.pca.1, aes(x = PC1, y= PC2,
                       group = Species,
                       colour = Species))+
   geom_point(aes(group = Species, colour =Species))+
@@ -912,7 +912,7 @@ one.pca.2 <- as.data.frame(one.pca2$x)
 one.pca.2$Pop <- PCAone3$E4E
 one.pca.2$Species <- PCAone3$Expert_ID_living
 
-ggplot(one.pca.2, aes(x = PC1, y= PC2,
+PCA2 <- ggplot(one.pca.2, aes(x = PC1, y= PC2,
                       group = Species,
                       colour = Species))+
   geom_point(aes(group = Species, colour =Species))+
@@ -1342,3 +1342,7 @@ tukeyteeth1.1 <- tidy(summary(glht(teeth1.1, mcp(Host="Tukey"))))
 write.csv(tukeyteeth1.1, file =  "./Output/Phenotypic_plasticity/PP_teeth_tukey_minus_PM.csv")
 
 g_lmfixplot(teeth1.1,  mcp(Host = "Tukey"), tukey = FALSE)
+
+# cowplot the PCA's
+
+cowplot::plot_grid(PCA1, PCA2, PCA3)
