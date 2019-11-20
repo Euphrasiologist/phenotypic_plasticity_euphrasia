@@ -1,6 +1,6 @@
 # Life history evolution, species differences and phenotypic plasticity in hemiparasitic eyebrights (*Euphrasia*)
 
-<b>Max R. Brown<sup>1</sup>, Natacha Frachon<sup>2</sup>, Edgar L. Y. Wong<sup>3</sup>, Chris Met herell<sup>4</sup>, Alex D. Twyford<sup>1,2,5</sup></b>
+<b>Max R. Brown<sup>1</sup>, Natacha Frachon<sup>2</sup>, Edgar L. Y. Wong<sup>3</sup>, Chris Metherell<sup>4</sup>, Alex D. Twyford<sup>1,2,5</sup></b>
 
 <sup>1</sup>University of Edinburgh, Institute of Evolutionary Biology, Charlotte Auerbach Road, Edinburgh, EH9 3FL, UK.
 
