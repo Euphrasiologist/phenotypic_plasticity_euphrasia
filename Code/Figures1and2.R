@@ -74,7 +74,7 @@ figure1 <- ggplot(meltcom, aes(x=`Host or Species`, y=value))+
   xlab(label = "")
 
 ggsave(filename = "Figure1_updated.pdf", plot = figure1, device = "pdf", 
-       path = "/Users/mbrown/Dropbox/Euphrasia 2016 common garden hosts vs pops/Experiments 2016/Manuscript/AJB/V4",
+       path = "./Output/",
        width = 7.25, height = 7.25, units = "in")
 
 # Figure 2 #
@@ -314,5 +314,5 @@ figure2<-plot_grid(plote1, plote2, plote3, plote4, labels = "auto")
 figure2 <- plot_grid(figure2, legendforerrorbars, rel_widths = c(1, 0.3), scale = 0.9)
 
 ggsave(filename = "Figure2_updated.pdf", plot = figure2, device = "pdf", 
-       path = "/Users/mbrown/Dropbox/Euphrasia 2016 common garden hosts vs pops/Experiments 2016/Manuscript/AJB/V4",
+       path = "./Output/",
        width = 7.25, units = "in")
