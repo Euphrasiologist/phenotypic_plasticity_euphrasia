@@ -24,6 +24,7 @@ library(Hmisc); library(RcmdrMisc)
 library(data.table)
 library(broom)
 library(multcomp)
+library(devtools)
 devtools::install_github("wilkelab/cowplot")
 library(cowplot)
 library(emmeans)
@@ -1346,3 +1347,4 @@ g_lmfixplot(teeth1.1,  mcp(Host = "Tukey"), tukey = FALSE)
 # cowplot the PCA's
 
 cowplot::plot_grid(PCA1, PCA2, PCA3)
+# figure 1
