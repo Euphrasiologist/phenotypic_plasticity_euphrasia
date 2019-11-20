@@ -143,8 +143,8 @@ get.legend <- ggplot(commonandwild.1, aes(x=mean,
                                    "E. anglica x rostkoviana",
                                    "E. arctica x confusa", 
                                    "E. arctica x nemorosa",
-                                   "E. nemorosa x confusa",
-                                   "E. tetraquetra x confusa"))+
+                                   "E. confusa x nemorosa",
+                                   "E. confusa x tetraquetra"))+
   theme(legend.text = element_text(size = 8, face = "italic"))
 
 legendforerrorbars<-get_legend(get.legend)
@@ -175,8 +175,8 @@ plote1<-ggplot(commonandwild.1, aes(x=mean,
                                    "E. anglica x rostkoviana",
                                    "E. arctica x confusa", 
                                    "E. arctica x nemorosa",
-                                   "E. nemorosa x confusa",
-                                   "E. tetraquetra x confusa"))+
+                                   "E. confusa x nemorosa",
+                                   "E. confusa x tetraquetra"))+
   theme(legend.position = "none",
         axis.title.x = element_text(size = 8),
         axis.title.y = element_text(size = 8))
@@ -217,8 +217,8 @@ plote2<-ggplot(commonandwild.2, aes(x=mean,
                                    "E. anglica x rostkoviana",
                                    "E. arctica x confusa", 
                                    "E. arctica x nemorosa",
-                                   "E. nemorosa x confusa",
-                                   "E. tetraquetra x confusa"))+
+                                   "E. confusa x nemorosa",
+                                   "E. confusa x tetraquetra"))+
   theme(legend.position = "none",
         axis.title.x = element_text(size = 8),
         axis.title.y = element_text(size = 8))
@@ -260,8 +260,8 @@ plote3<-ggplot(commonandwild.3, aes(x=mean,
                                    "E. anglica x rostkoviana",
                                    "E. arctica x confusa", 
                                    "E. arctica x nemorosa",
-                                   "E. nemorosa x confusa",
-                                   "E. tetraquetra x confusa"))+
+                                   "E. confusa x nemorosa",
+                                   "E. confusa x tetraquetra"))+
   theme(legend.position = "none",
         axis.title.x = element_text(size = 8),
         axis.title.y = element_text(size = 8))
@@ -303,13 +303,13 @@ plote4<-ggplot(commonandwild.4, aes(x=mean,
                                    "E. anglica x rostkoviana",
                                    "E. arctica x confusa", 
                                    "E. arctica x nemorosa",
-                                   "E. nemorosa x confusa",
-                                   "E. tetraquetra x confusa"))+
+                                   "E. confusa x nemorosa",
+                                   "E. confusa x tetraquetra"))+
   theme(legend.position = "none",
         axis.title.x = element_text(size = 8),
         axis.title.y = element_text(size = 8))
 
-figure2<-plot_grid(plote1, plote2, plote3, plote4, labels = "auto")
+figure2<-plot_grid(plote1, plote2, plote3, plote4, labels = "AUTO")
 # needs small amount of tweaking but basically there
 figure2 <- plot_grid(figure2, legendforerrorbars, rel_widths = c(1, 0.3), scale = 0.9)
 
