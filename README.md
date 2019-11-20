@@ -19,4 +19,4 @@ https://doi.org/10.1101/362400.
 
 The manuscript has been submitted and accepted to the American Journal of Botany.
 
-This repository contains the source code for all analyses and source code for figures in the main text.
+This repository contains the source code for all analyses and for figures in the main text. Included are the results of the statistical models in the "Output" folder.
