@@ -155,7 +155,7 @@ plote1<-ggplot(commonandwild.1, aes(x=mean,
                                     y=mean.1))+
   geom_errorbar(aes(ymin = mean.1-2*sem.1, ymax = mean.1+2*sem.1), width = 0.15)+
   geom_errorbarh(aes(xmin = mean-2*sem, xmax = mean+2*sem), width=0.5)+
-  geom_point(aes(colour = Species), size=3.5) +
+  geom_point(aes(fill = Species), size=3.5, pch=21) +
   geom_abline(intercept = coef(lm(mean.1 ~ mean, data = commonandwild.1[-1,]))[1], slope = coef(lm(mean.1 ~ mean, data = commonandwild.1[-1,]))[2], col="red", lty = 2)+
   theme_bw()+
   labs(title = "")+
@@ -196,7 +196,7 @@ plote2<-ggplot(commonandwild.2, aes(x=mean,
                                     y=mean.1))+
   geom_errorbar(aes(ymin = mean.1-2*sem.1, ymax = mean.1+2*sem.1), width = 0.15, size=0.5)+
   geom_errorbarh(aes(xmin = mean-2*sem, xmax = mean+2*sem), width=0.5, size=0.5)+
-  geom_point(aes(colour = Species), size=3.5) +
+  geom_point(aes(fill = Species), size=3.5, pch=21) +
   geom_abline(intercept = coef(lm(mean.1 ~ mean, data = commonandwild.2))[1], 
               slope = coef(lm(mean.1 ~ mean, data = commonandwild.2))[2], col="red", lty = 2)+
   theme_bw()+
@@ -239,7 +239,7 @@ plote3<-ggplot(commonandwild.3, aes(x=mean,
                                     y=mean.1))+
   geom_errorbar(aes(ymin = mean.1-2*sem.1, ymax = mean.1+2*sem.1), width = 0.15, size=0.5)+
   geom_errorbarh(aes(xmin = mean-2*sem, xmax = mean+2*sem), width=0.5, size=0.5)+
-  geom_point(aes(colour = Species), size=3.5) +
+  geom_point(aes(fill = Species), size=3.5, pch=21) +
   geom_abline(intercept = coef(lm(mean.1 ~ mean, data = na.omit(commonandwild.3)))[1], 
               slope = coef(lm(mean.1 ~ mean, data = na.omit(commonandwild.3)))[2], col="red", lty = 2)+
   theme_bw()+
@@ -282,7 +282,7 @@ plote4<-ggplot(commonandwild.4, aes(x=mean,
                                     y=mean.1))+
   geom_errorbar(aes(ymin = mean.1-2*sem.1, ymax = mean.1+2*sem.1), width = 0.15, size=0.5)+
   geom_errorbarh(aes(xmin = mean-2*sem, xmax = mean+2*sem), width=0.5, size=0.5)+
-  geom_point(aes(colour = Species), size=3.5) +
+  geom_point(aes(fill = Species), size=3.5, pch=21) +
   geom_abline(intercept = coef(lm(mean.1 ~ mean, data = na.omit(commonandwild.4)))[1], 
               slope = coef(lm(mean.1 ~ mean, data = na.omit(commonandwild.4)))[2], col="red", lty = 2)+
   theme_bw()+
@@ -315,4 +315,4 @@ figure2 <- plot_grid(figure2, legendforerrorbars, rel_widths = c(1, 0.3), scale 
 
 ggsave(filename = "Figure2_updated.pdf", plot = figure2, device = "pdf", 
        path = "./Output/",
-       width = 7.25, units = "in")
+       width = 7.25, units = "in", useDingbats=FALSE)
