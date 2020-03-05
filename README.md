@@ -14,9 +14,8 @@
 
 ## Publication and repository details:
 
-The pre-print for this manuscript is on bioRxiv:
-https://doi.org/10.1101/362400.
+This manuscript is published in the American Journal of Botany.
 
-The manuscript has been submitted and accepted to the American Journal of Botany.
+The publication can now be viewed online at: https://bsapubs.onlinelibrary.wiley.com/doi/abs/10.1002/ajb2.1445
 
 This repository contains the source code for all analyses and for figures in the main text. Included are the results of the statistical models in the "Output" folder.
